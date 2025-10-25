@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Woofiee <3</title>
+	<link rel="stylesheet" type="text/css" href="dog.css">
+	<link href="https://fonts.cdnfonts.com/css/daily-bubble" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li>Hunger</li>
+				<li>
+					<input type="range" min="1" max="10" value="10" id="h1" disabled></div>
+				</li>
+				<li>Thirst</li>
+				<li>
+					<input type="range" min="1" max="10" value="10" id="t1" disabled></div>
+				</li>
+				<li>Fun</li>
+				<li>
+					<input type="range" min="1" max="10" value="10" id="b1" disabled></div>
+				</li>
+				<li>
+					<button class="btn" id="treat" onclick="fed()">
+				 		<img src="treat.png" id="m1" alt="Treat Icon">
+					</button>
+				</li>
+				<li>
+					<button class="btn" id="water" onclick="drank()">
+						<img src="water.png" id="m2" alt="Water Icon">
+					</button>
+				</li>
+				<li>
+					<button class="btn" id="play" onclick="bored()">
+						<img src="play.png" id="m3" alt="Play Icon">
+					</button>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div class="coin1">
+		<img src="coin.png" id="coin">
+		<h3 id="score">1</h3>
+	</div>
+	<div class="dog1">
+		<img src="dog.png" id="dog" onclick="coins()">
+		<img src="playn.png" id="play1" class="need">
+		<img src="thirst.png" id="thirst" class="need">
+		<img src="hunger.png" id="hunger" class="need">
+		<img src="woof1.png" id="woof">
+	</div>
+	<div class="floor"></div>
+</body>
+<script src="dog.js"></script>
+</html>
