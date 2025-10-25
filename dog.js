@@ -151,5 +151,8 @@ function death(){
 }
 death()
 function coins(){
-	alert('hi')
+	const scoretxt = document.getElementById('score')
+	score +=1
+	console.log(score)
+	scoretxt.innerHTML=score
 }
